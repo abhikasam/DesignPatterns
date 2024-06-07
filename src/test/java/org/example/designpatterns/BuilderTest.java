@@ -8,8 +8,7 @@ public class BuilderTest {
     @Test
     public void Test(){
         User user=createUser();
-        UserDto.UserDtoBuilder userDtoBuilder= new UserDto.UserDtoBuilder();
-        UserDto userDto=userDtoBuilder
+        UserDto userDto=UserDto.getBuilder()
                 .withFirstName(user.getFirstName())
                 .withLastName(user.getLastName())
                 .withAddress(user.getAddress())

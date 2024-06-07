@@ -6,6 +6,9 @@ public class UserDto {
     private String address;
     private String email;
     private int age;
+    public static UserDtoBuilder getBuilder(){
+        return new UserDtoBuilder();
+    }
 
     public String getFirstName(){
         return this.firstName;
