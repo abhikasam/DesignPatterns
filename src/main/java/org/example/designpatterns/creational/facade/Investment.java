@@ -1,10 +1,11 @@
-package org.example.designpatterns.facade;
+package org.example.designpatterns.creational.facade;
 
 import java.math.BigDecimal;
 
-public class Saving implements IAccount {
+public class Investment implements IAccount {
     BigDecimal totalAmount;
-    public Saving(BigDecimal initAmount){
+    int accountNumber;
+    public Investment(BigDecimal initAmount){
         this.totalAmount=initAmount;
     }
     @Override
@@ -21,6 +22,7 @@ public class Saving implements IAccount {
     public void transfer(BigDecimal amount) {
 
     }
+
     @Override
     public int getAccountNumber() {
         return this.hashCode();
@@ -29,6 +31,7 @@ public class Saving implements IAccount {
     public void addAmount(BigDecimal amount) {
         totalAmount= totalAmount.add(amount);
     }
+
     @Override
     public void substractAmount(BigDecimal amount) {
         totalAmount=totalAmount.subtract(amount);

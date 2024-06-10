@@ -1,7 +1,6 @@
 package org.example.designpatterns;
 
-import org.example.designpatterns.facade.BankService;
-import org.example.designpatterns.facade.IAccount;
+import org.example.designpatterns.creational.facade.BankService;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;

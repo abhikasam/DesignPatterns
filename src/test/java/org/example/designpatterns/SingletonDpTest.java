@@ -1,5 +1,5 @@
 package org.example.designpatterns;
-import org.example.designpatterns.singleton.SingletonDp;
+import org.example.designpatterns.creational.singleton.SingletonDp;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

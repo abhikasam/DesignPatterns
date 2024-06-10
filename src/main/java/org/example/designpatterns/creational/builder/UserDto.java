@@ -1,4 +1,4 @@
-package org.example.designpatterns.builder;
+package org.example.designpatterns.creational.builder;
 
 public class UserDto {
     private String firstName;

@@ -1,4 +1,4 @@
-package org.example.designpatterns.builder;
+package org.example.designpatterns.creational.builder;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
 package org.example.designpatterns;
 
-import org.example.designpatterns.builder.User;
-import org.example.designpatterns.builder.UserDto;
+import org.example.designpatterns.creational.builder.User;
+import org.example.designpatterns.creational.builder.UserDto;
 import org.junit.jupiter.api.Test;
 
 public class BuilderTest {

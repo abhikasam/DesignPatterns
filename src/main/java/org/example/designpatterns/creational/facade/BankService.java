@@ -1,4 +1,4 @@
-package org.example.designpatterns.facade;
+package org.example.designpatterns.creational.facade;
 
 import java.math.BigDecimal;
 import java.util.Hashtable;

@@ -1,4 +1,4 @@
-package org.example.designpatterns.factory;
+package org.example.designpatterns.creational.factory;
 
 public class TextMessageCreator extends MessageCreator {
     @Override
