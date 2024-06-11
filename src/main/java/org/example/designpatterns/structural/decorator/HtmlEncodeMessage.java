@@ -1,4 +1,4 @@
-package org.example.designpatterns.decorator;
+package org.example.designpatterns.structural.decorator;
 
 import org.apache.commons.text.StringEscapeUtils;
 

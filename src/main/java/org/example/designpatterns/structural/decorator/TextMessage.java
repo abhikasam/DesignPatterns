@@ -1,4 +1,4 @@
-package org.example.designpatterns.decorator;
+package org.example.designpatterns.structural.decorator;
 
 public class TextMessage implements Message {
     private String text;
