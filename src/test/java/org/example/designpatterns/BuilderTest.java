@@ -1,5 +1,6 @@
 package org.example.designpatterns;
 
+import org.example.designpatterns.creational.builder.Allocation;
 import org.example.designpatterns.creational.builder.User;
 import org.example.designpatterns.creational.builder.UserDto;
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,7 @@ public class BuilderTest {
                 .withEmail(user.getEmail())
                 .withAge(user.getAge())
                 .build();
+        Allocation allocation=Allocation.getAllocationBuilder().withDealId(4).build();
     }
 
     private User createUser(){
@@ -26,5 +28,4 @@ public class BuilderTest {
         user.setAge(25);
         return user;
     }
-
 }
