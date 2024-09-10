@@ -1,9 +1,9 @@
 package org.example.designpatterns;
 
-import org.example.designpatterns.creational.factory.JsonMessageCreator;
-import org.example.designpatterns.creational.factory.Message;
-import org.example.designpatterns.creational.factory.MessageCreator;
-import org.example.designpatterns.creational.factory.TextMessageCreator;
+import org.example.designpatterns.creational.factory.message.JsonMessageCreator;
+import org.example.designpatterns.creational.factory.message.Message;
+import org.example.designpatterns.creational.factory.message.MessageCreator;
+import org.example.designpatterns.creational.factory.message.TextMessageCreator;
 import org.junit.jupiter.api.Test;
 
 public class FactoryTest {

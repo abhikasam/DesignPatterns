@@ -1,4 +1,4 @@
-package org.example.designpatterns.creational.factory;
+package org.example.designpatterns.creational.factory.message;
 
 public class JsonMessageCreator extends MessageCreator {
     @Override
